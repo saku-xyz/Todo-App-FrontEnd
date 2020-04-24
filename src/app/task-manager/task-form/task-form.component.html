@@ -1,0 +1,9 @@
+<div class="col-4 mx-auto mt-5">
+  <form (submit)="Add($event)">
+<div class="form-group">
+  <label for="task">Enter Task Title</label>
+  <input type="text" name="title" id="task" class="form-control" placeholder="Enter Task Title" [(ngModel)]="title">
+</div>
+<button class="btn btn-primary">Add Task</button>
+</form>
+</div>
